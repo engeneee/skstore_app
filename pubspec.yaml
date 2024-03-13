@@ -1,0 +1,39 @@
+name: skstore_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:   
+   - assets/images/
+   - assets/images/logo.png
+   - assets/images/skstore.png
+   - assets/images/border.png
+   - assets/images/icon_cart_active.png
+   - assets/images/icon_cart_inactive.png
+   - assets/images/icon_favorites_active.png
+   - assets/images/icon_favorites_inactive.png
+   - assets/images/icon_home_active.png
+   - assets/images/icon_home_inactive.png
+   - assets/images/icon_person_active.png
+   - assets/images/icon_person_inactive.png
+   - assets/images/icon_search_active.png
+   - assets/images/icon_search_inactive.png
+   - assets/images/icon_price_active.png
+   - assets/images/icon_price_inactive.png
+
+
